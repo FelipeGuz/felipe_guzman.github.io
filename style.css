@@ -1,5 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins|Righteous&display=swap');
 
-h1{
-    color:blue;
-    font-family:Arial;
+
+html{
+    background-image: url(/WWW/images/textura.jpg);
+    background-attachment: fixed;
+}
+
+body{
+    margin: 0;
+}
+
+nav li{
+    display: inline-block;
+    font-size: 20px;
+    padding: 0px 40px 0px 40px;
+    margin: 0px 0px 0px 0px;
+}
+
+section p{
+    margin: 0px 40px 0px 40px;
+}
+
+nav{
+    position: fixed;
+    text-align: center;
+    padding: 0;
+    margin: 0px 0px 0px 0px;
+    
+    background-color: rgba(2, 2, 2, 0.6);
+    top: 0;
+    width: 100%;
+    color: rgb(255 , 255, 255);
+}
+
+#navbar a{
+    color: rgb(255, 255, 255);
+    list-style-type: none;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    text-decoration: none;
+    font-family: 'Righteous', cursive;
+}
+
+#navbar a:hover{
+    color: hotpink;
+}
+
+header{
+    margin-top: 100px;
+}
+
+.intro{
+    height: 880px;
+    text-align: center;
+}
+
+.foto{
+    align-self: center;
+    border-radius: 50%;
+    background-image: url("/WWW/images/mano.jpg");
+    background-size: cover;
+    box-shadow: 0px 0px 10px 0px #b3b3b3;
+    height: 350px;
+    width: 350px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 120px 30px 0px 30px;
+}
+
+.foto:hover{
+    background-image: url("/WWW/images/mano2.jpg");
+    background-size: cover;
+}
+
+.nombre{
+    margin: 120px 30px 0px 30px;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'Righteous', cursive;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+}
+
+.nombre > h1{
+    border-top: 4px solid rgb(0, 44, 95);
+    color: #00374f;
+    display: inline-block;
+    min-height: 70px;
+    margin: 55px auto 0;
+    padding: 0 10px;
+    z-index: 2;
+    font-size: 3em;
+    margin: 0.67em 0;
 }
