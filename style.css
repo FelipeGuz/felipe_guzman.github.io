@@ -57,12 +57,19 @@ section{
     font-size: 2em;
     text-decoration: none;
     font-family: 'Roboto Condensed', sans-serif;
-    margin: 15px;
+}
+
+.menu .row{
+    height: 20%;
 }
 
 .menu{
-    margin: 15px 0px 0px 0px;
+    height: 70%;
+    text-align: center;
+    position: fixed;
+    margin: auto;
 }
+
 
 #titulo{
     text-align: left;
